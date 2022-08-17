@@ -46,6 +46,20 @@ img{
   width: 100px;
 }
 
+#Fun_facts_imgs{
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#Fun_facts_imgs2{
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .items:hover {
   background-color: limegreen;
   opacity: 0.5;
