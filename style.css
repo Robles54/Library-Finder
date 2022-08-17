@@ -1,0 +1,170 @@
+element{
+  color: limegreen;
+}
+
+p{
+  color: white
+}
+
+#nav_list {
+  list-style-type: none;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  background-color: blue;
+  font-family: "Courier New", "Courier", monospace;
+}
+
+
+ul{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+div {
+  font-family: cursive ;
+  color: blue; 
+  font-size: 32px;
+  padding: 5px;
+}
+
+body{
+  font-family: system-ui;
+  color: black;
+  font-size: 20px;
+}
+
+img{
+  width: 100px;
+}
+
+.items:hover {
+  background-color: limegreen;
+  opacity: 0.5;
+}
+
+nav {
+  background-color: orange;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+a{
+  width: 20%;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.container h1{
+  font-family: 'Times New Roman', sans-serif;
+}
+
+#big_div{
+  display: flex;
+  justify-content: space-around;
+}
+
+li{
+  font-family: system-ui, -apple-stystem, BlinkMacSystemFont;
+  font-size: 25px;
+  color: darkblue
+}
+
+#container{
+  font-size: 10px;
+}
+
+.infoContain{ 
+    width: 50vw;
+    background-color: orange;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont ;
+    color:white;
+    font-weight: bolder;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    border: blue 4px solid;
+
+}
+
+input{
+  border-radius: 10px;
+  border: 4px black solid;
+  color: white;
+  background-color: purple;
+  padding: 10px;
+  font-weight: bold;
+}
+
+button{
+border-radius:10px;
+border: 4px black solid;
+color:white;
+background-color:purple;
+padding:10px;
+font-weight:bold
+}
+
+#font_container{
+  background-color: limegreen;
+  font-family: system-ui;
+}
+
+
+ #map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+ }
+
+@media(max-width: 1030px){
+  p{
+    font-size: 120%;
+  }
+  .info_container{
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card{
+    width: 50%
+  }
+}
+
+@media(max-width: 530px){
+  p{
+    font-size: 80px;
+  }
+  .info_container{
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    width: 10%
+  }
+.items{
+    font-size: 15px;
+  }
+}
+
+@media(max-width: 375px){
+  p{
+    font-size: 20px;
+  }
+  .info_container{
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    width: 5%
+  }
+}
