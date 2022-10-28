@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Finder</title>
+    <link rel="icon" href="https://cdn.glitch.global/e7662079-ce3e-45bf-a8b7-658bf6fda523/7694075686_b6b3a052-dd99-43ea-8777-fa39699e76ec.png?v=1660576965559">
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <img
+        class="items"
+        src="https://cdn.glitch.global/e7662079-ce3e-45bf-a8b7-658bf6fda523/7694075686_b6b3a052-dd99-43ea-8777-fa39699e76ec.png?v=1660576965559"
+      />
+      <a href="aboutUs.html"><div class="items">About Us</div></a>
+      <a href="mission.html"><div class="items">Mission</div></a>
+      <a href="funFacts.html"><div class="items">Literacy Fun Facts</div></a>
+      <a href="libraries.html"><div class="items">Library Cards!</div></a>
+    </nav>
+
+    <body id = "font_container">
+      Below enter your zip code to find the libraries nearest to you!
+    </body>
+    
+    <form id="container">
+      <h1>Enter your Zip Code or Location</h1>
+      <input id="userInput" type="text" />
+      <button id="submitBtn">Find</button>
+    </form>
+    <div id="libraryContainer"></div>
+
+<!--     <div id="map">
+      <script async defer src = "https://maps.googleapis.com/maps/api/js?key=AIzaSyC1spK1ps2FOnI-V8zlMy8H0zftftVEmi0&callback=initMap">
+
+        function initMap() {
+          var dumbo = { lat: 40.700802, lng: 73.987602 };
+          var mapOptions = {
+            center: dumbo,
+            zoom: 10,
+          };
+          var googlemap = new google.maps.Map(
+            document.getElementById("map"),
+            mapOptions
+          );
+        }
+
+        var googlemap = new google.maps.Map(
+          document.getElementById("map"),
+          mapOptions
+        );
+        var marker = new google.maps.Marker({
+          position: siliconValley,
+          map: googlemap,
+        });
+        
+      </script>
+    </div> -->
+  </body>
+</html>
