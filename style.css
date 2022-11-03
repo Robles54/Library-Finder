@@ -6,6 +6,10 @@ p{
   color: white
 }
 
+a{
+  color:rgb(235, 178, 21)
+}
+
 #nav_list {
   list-style-type: none;
   margin-top: 0px;
@@ -16,7 +20,7 @@ p{
   padding-top: 0px;
   padding-right: 0px;
   padding-bottom: 0px;
-  background-color: blue;
+  background-color: rgb(235, 178, 21);
   font-family: "Courier New", "Courier", monospace;
 }
 
@@ -31,14 +35,14 @@ ul{
 }
 div {
   font-family: cursive ;
-  color: blue; 
+  color: rgb(127, 23, 23); 
   font-size: 32px;
   padding: 5px;
 }
 
 body{
   font-family: system-ui;
-  color: black;
+  color: rgb(228, 164, 0);
   font-size: 20px;
 }
 
@@ -112,11 +116,15 @@ li{
 
 }
 
+h1{
+  color: white;
+}
+
 input{
   border-radius: 10px;
   border: 4px black solid;
   color: white;
-  background-color: purple;
+  background-color: rgb(255, 132, 0);
   padding: 10px;
   font-weight: bold;
 }
@@ -125,13 +133,13 @@ button{
 border-radius:10px;
 border: 4px black solid;
 color:white;
-background-color:purple;
+background-color: rgb(255, 132, 0);
 padding:10px;
 font-weight:bold
 }
 
 #font_container{
-  background-color: limegreen;
+  background-color: #771822;
   font-family: system-ui;
 }
 
@@ -145,6 +153,9 @@ font-weight:bold
 @media(max-width: 1030px){
   p{
     font-size: 120%;
+  }
+  .infoContain{
+    font-size: 10px;
   }
   .info_container{
     font-size: 20px;
