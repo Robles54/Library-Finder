@@ -23,7 +23,7 @@ button.onclick = function (event) {
   const api =
     "https://maps.googleapis.com/maps/api/place/textsearch/json?query=library+bookstores+" +
     inputValue +
-    "&key=AIzaSyC1spK1ps2FOnI-V8zlMy8H0zftftVEmi0"; // Change this to your API's
+    "&key=AIzaSyDA-2fH3hyQJSga-bb_kxrTIweZgug4VuA"; // Change this to your API's
   fetch(proxy + api)
     .then(function (response) {
       return response.json();
